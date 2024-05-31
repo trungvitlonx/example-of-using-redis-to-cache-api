@@ -1,0 +1,25 @@
+{
+  "name": "example-of-using-redis-to-cache-api",
+  "version": "0.0.1",
+  "description": "An example of using Redis to cache API calls",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "api",
+    "redis",
+    "cache"
+  ],
+  "author": "Trung Le",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "redis": "^4.6.14"
+  }
+}
